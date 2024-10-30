@@ -13,7 +13,7 @@ namespace myhomeapplication.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class CategoriesController : ControllerBase
     {
         private readonly AppDbContext _context;

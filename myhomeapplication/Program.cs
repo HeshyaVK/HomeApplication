@@ -100,11 +100,11 @@ else
 }
 
 // Enable serving of static files from a custom directory (your images path)
-app.UseStaticFiles(new StaticFileOptions
-{
-    FileProvider = new PhysicalFileProvider(@"E:\2024kaizen\myhomeapplication\myhomeapplication\Images\"),
-    RequestPath = "/images"
-});
+//app.UseStaticFiles(new StaticFileOptions
+//{
+//    FileProvider = new PhysicalFileProvider(@"E:\2024kaizen\myhomeapplication\myhomeapplication\Images\"),
+//    RequestPath = "/images"
+//});
 
 app.UseHttpsRedirection();
 app.UseRouting();
